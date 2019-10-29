@@ -6,7 +6,7 @@ import java.util.Map;
 import javafx.scene.control.Label;
 
 /**
- * Factory class for making coloured labels
+ * Factory class for making coloured labels.
  */
 public class ColouredLabelFactory {
 
@@ -33,7 +33,8 @@ public class ColouredLabelFactory {
 
 
     /**
-     * Takes in a tag name and returns a JavaFX Label coloured based on it
+     * Takes in a tag name and returns a JavaFX Label coloured based on it.
+     *
      * @param tagName of the tag
      * @return a JavaFX Label coloured based on tag name
      */
@@ -60,22 +61,22 @@ public class ColouredLabelFactory {
             return;
         }
 
-        // Unfavourable Expenses
+        // Critical Expenses
         mapTagColour.put("debt", BACKGROUND_COLOR_RED);
         mapTagColour.put("fees", BACKGROUND_COLOR_RED);
         mapTagColour.put("gamble", BACKGROUND_COLOR_RED);
 
-        // Awesome Incomes
+        // Sources of Income
         mapTagColour.put("allowance", BACKGROUND_COLOR_GREEN);
         mapTagColour.put("award", BACKGROUND_COLOR_GREEN);
         mapTagColour.put("salary", BACKGROUND_COLOR_GREEN);
 
-        // Personal Spending
+        // Entertainment Expenses
         mapTagColour.put("shopping", BACKGROUND_COLOR_BLUE);
         mapTagColour.put("travel", BACKGROUND_COLOR_BLUE);
         mapTagColour.put("transport", BACKGROUND_COLOR_BLUE);
 
-        // Chemical Intake
+        // Food & Necessities
         mapTagColour.put("breakfast", BACKGROUND_COLOR_ORANGE);
         mapTagColour.put("brunch", BACKGROUND_COLOR_ORANGE);
         mapTagColour.put("dinner", BACKGROUND_COLOR_ORANGE);
