@@ -24,7 +24,7 @@ THRIFT is a fork of the original https://github.com/nus-cs2103-AY1920S1/addressb
 My team and I have since transformed the application to suit our use cases.
 
 === About the THRIFT Team
-The THRIFT team consists of five passionate developers and I was the Software Architect, who is in charge of documentation.
+The THRIFT Team consists of five passionate developers and I was the Software Architect, who is in charge of documentation.
 The other team members and their respective roles were:
 
 * Poh Jia Hao (Team Lead)
