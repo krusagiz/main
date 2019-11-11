@@ -275,7 +275,7 @@ that we had.
 
 //tag::addtransaction[]
 === Adding transactions
-We allow users to add `**Expense**`/`**Income**` transactions into `**THRIFT**` which enables record-keeping. This section will show how we handle such
+We allow users to add `**Expense**`/`**Income**` transactions into `**THRIFT**` which enables record-keeping. This section show how we handle such
 requests from the user at the back-end.
 
 ==== Implementation
@@ -1005,7 +1005,7 @@ This way, we can enhance the user experience and make our application more effec
 
 The following sections will describe how we plan to implement this feature and the possible design considerations.
 
-==== Proposed Implementation
+==== Proposed implementation
 Adhering to the Open-Closed principle, we will not modify the existing architecture but extend it.
 The following class diagram illustrates how we propose to do it, by adding 2 new classes to the existing architecture:
 
@@ -1090,10 +1090,10 @@ instead of just its size
 Certain properties of the application can be controlled (e.g user prefs file location, logging level) through the configuration file (default: _config.json_).
 
 == Documentation
-We use asciidoc for writing documentation.
+We use AsciiDoc for writing documentation.
 
 [NOTE]
-We chose asciidoc over Markdown because asciidoc, although a bit more complex than Markdown, provides more flexibility in formatting.
+We chose AsciiDoc over Markdown because AsciiDoc, although a bit more complex than Markdown, provides more flexibility in formatting.
 
 === Editing documentation
 
@@ -1125,7 +1125,7 @@ image::chrome_save_as_pdf.png[width="300"]
 [[Docs-SiteWideDocSettings]]
 === Site-wide documentation settings
 
-The link:{repoURL}/build.gradle[`_build.gradle_`] file specifies some project-specific https://asciidoctor.org/docs/user-manual/#attributes[asciidoc attributes] which affects how all documentation files within this project are rendered.
+The link:{repoURL}/build.gradle[`_build.gradle_`] file specifies some project-specific https://asciidoctor.org/docs/user-manual/#attributes[AsciiDoc attributes] which affects how all documentation files within this project are rendered.
 
 [TIP]
 Attributes left unset in the `_build.gradle_` file will use their default value, if any.
@@ -1149,7 +1149,7 @@ Setting this will add a "View on GitHub" link in the navigation bar.
 [[Docs-PerFileDocSettings]]
 === Per-file documentation settings
 
-Each .adoc file may also specify some file-specific https://asciidoctor.org/docs/user-manual/#attributes[asciidoc attributes] which affects how the file is rendered.
+Each .adoc file may also specify some file-specific https://asciidoctor.org/docs/user-manual/#attributes[AsciiDoc attributes] which affects how the file is rendered.
 
 Asciidoctor's https://asciidoctor.org/docs/user-manual/#builtin-attributes[built-in attributes] may be specified and used as well.
 
@@ -1248,7 +1248,7 @@ We use https://coveralls.io/[Coveralls] to track the code coverage of our projec
 
 === Documentation previews
 
-When a pull request has changes to asciidoc files, you can use https://www.netlify.com/[Netlify] to see a preview of how the HTML version of those asciidoc files will look like when the pull request is merged. See <<UsingNetlify#, UsingNetlify.adoc>> for more details.
+When a pull request has changes to AsciiDoc files, you can use https://www.netlify.com/[Netlify] to see a preview of how the HTML version of those AsciiDoc files will look like when the pull request is merged. See <<UsingNetlify#, UsingNetlify.adoc>> for more details.
 
 === Making a release
 
